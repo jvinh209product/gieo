@@ -1,0 +1,391 @@
+{
+  "product": "GIEO",
+  "exportVersion": "1.1.0-portable-source",
+  "exportedAt": "2026-10-09T06:06:56.651Z",
+  "source": {
+    "projectId": "appgprj_6ac85fff982c8191b4332c03eeb71395",
+    "savedVersionNumber": 2,
+    "savedVersionId": "appgprj_6ac85fff982c8191b4332c03eeb71395~appgver_2b60074f002081918c4f8415142f9ec2",
+    "commitSha": "e2519cc1502efd04b251f5eb0b0e73bb9a106b1e",
+    "branch": "main",
+    "variant": "latest saved version, also published",
+    "newerSavedUnpublishedVersionFound": false,
+    "workingTreeAtExport": "clean"
+  },
+  "architecture": {
+    "framework": "Portable static frontend (vanilla JavaScript ES modules / HTML / CSS / SVG)",
+    "packageManager": "npm",
+    "node": "24.x",
+    "testedNode": "24.19.0",
+    "testedNpm": "11.9.0",
+    "packageJson": "package.json",
+    "htmlEntry": "src/index.html",
+    "browserEntry": "src/app.js",
+    "buildEntry": "scripts/build.mjs",
+    "buildOutput": "dist",
+    "externalNpmDependencies": 0
+  },
+  "deployment": {
+    "providerTarget": "Vercel (not deployed)",
+    "frameworkPreset": "Other",
+    "rootDirectoryWhenFilesAtRepoRoot": "./",
+    "rootDirectoryWhenProjectIsNested": "gieo",
+    "installCommand": "npm ci",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "requiredEnvironmentVariables": [],
+    "optionalBuildEnvironmentVariables": [
+      "SITE_URL"
+    ],
+    "automaticVercelVariables": [
+      "VERCEL_PROJECT_PRODUCTION_URL",
+      "VERCEL_URL"
+    ],
+    "requestedRepository": "jvinh209product/gieo",
+    "requestedProjectName": "gieo",
+    "preferredDomain": "gieo.vercel.app",
+    "preferredDomainAvailabilityVerified": false,
+    "routeStrategy": "23 exact known-route rewrites to individually prerendered HTML; no blanket asset-to-homepage rewrite"
+  },
+  "routes": [
+    "/",
+    "/explore",
+    "/stories",
+    "/sanctuary",
+    "/garden",
+    "/library",
+    "/about",
+    "/explore/karma-and-intention",
+    "/explore/impermanence",
+    "/explore/interdependence",
+    "/explore/not-self",
+    "/explore/holding-and-letting-go",
+    "/explore/mindful-presence",
+    "/explore/compassionate-speech",
+    "/explore/rebirth-and-continuity",
+    "/stories/loving-without-owning",
+    "/stories/why-family-words-hurt",
+    "/stories/when-effort-is-not-enough",
+    "/stories/how-much-is-enough",
+    "/stories/the-other-life-on-your-screen",
+    "/stories/living-with-absence",
+    "/stories/forgiveness-and-boundaries",
+    "/stories/waiting-to-begin-living"
+  ],
+  "notFoundOutput": "404.html",
+  "localizedContent": {
+    "languages": [
+      "en",
+      "vi"
+    ],
+    "firstVisitDefault": "en",
+    "editorialPairedFields": 126,
+    "uiPairedFields": 288,
+    "homeScenes": 7,
+    "philosophyChapters": 8,
+    "lifeStories": 8,
+    "guidedSessions": 4,
+    "guidedCuesPerSession": 6,
+    "libraryRecordsPerLanguage": 27,
+    "contentArrayCounts": {
+      "lessons": 8,
+      "stories": 8,
+      "sessions": 4
+    }
+  },
+  "journal": {
+    "storage": "browser localStorage",
+    "key": "gieo.garden.v1",
+    "schemaVersion": 1,
+    "import": true,
+    "export": true,
+    "importLimitBytes": 5242880,
+    "duplicateImportPolicy": "retain existing entry IDs; merge new IDs",
+    "realUserEntriesIncluded": false,
+    "originMigrationRequiresExplicitExportImport": true
+  },
+  "assets": [
+    {
+      "path": "public/assets/favicon.svg",
+      "bytes": 286,
+      "sha256": "1f740a3523eef7f76197b14fea0e68bcdd824eed67731692e1aee1116d05c076",
+      "runtimePath": "/assets/favicon.svg"
+    },
+    {
+      "path": "public/assets/landscape.webp",
+      "bytes": 209000,
+      "sha256": "5beaee5a8c9fb8549d2eaf57c3bb8362a0dd96190ec3b4459bf11f6db8737544",
+      "runtimePath": "/assets/landscape.webp"
+    },
+    {
+      "path": "public/assets/Noto-OFL.txt",
+      "bytes": 4395,
+      "sha256": "4bcd2048d7290dab388dae758e5b2f9a1cc66822e619257d4372ad9e5087ef70",
+      "runtimePath": "/assets/Noto-OFL.txt"
+    },
+    {
+      "path": "public/assets/sans.woff",
+      "bytes": 393320,
+      "sha256": "319cb6032698e6129999696562940e42cc0588a769cdb88a046470de7b5a1afb",
+      "runtimePath": "/assets/sans.woff"
+    },
+    {
+      "path": "public/assets/serif-italic.woff",
+      "bytes": 372628,
+      "sha256": "12041b859bf6ea6360593de3759524fbe978210de72223c190d5251eb3d5198f",
+      "runtimePath": "/assets/serif-italic.woff"
+    },
+    {
+      "path": "public/assets/serif.woff",
+      "bytes": 343216,
+      "sha256": "6575981d14df5f347ca3b0ecca70865ddfbc18f7169606b81bce6410d5ce3a9d",
+      "runtimePath": "/assets/serif.woff"
+    }
+  ],
+  "proceduralArtwork": [
+    "src/art.js",
+    "src/styles.css"
+  ],
+  "sound": "User-initiated synthesized Web Audio breeze; no recordings",
+  "confirmedExternalRuntimeDependencies": [],
+  "externalNavigationLinks": [
+    "https://vinh-nguyen-portfolio-three.vercel.app/"
+  ],
+  "sourcePortabilityChanges": [
+    "Move preserved binary assets into public/assets/ for reproducible clean builds",
+    "Rebase canonical/social/sitemap metadata using optional build-time origin configuration and browser origin",
+    "Add dependency-free local dev/preview and syntax scripts, npm lockfile, exact Vercel route rules and documentation",
+    "Add original-font copyright and verified SIL OFL 1.1 notices"
+  ],
+  "preservation": {
+    "editorialContent": "byte-identical to selected source",
+    "uiTranslations": "byte-identical",
+    "stylesAndV11Typography": "byte-identical",
+    "viewsAndGlobalFooter": "byte-identical",
+    "proceduralArtwork": "byte-identical",
+    "sessionAndJournalCore": "byte-identical",
+    "originalFiveBinaryVectorAssets": "byte-identical",
+    "originalSiteChanged": false
+  },
+  "licenses": {
+    "fonts": "SIL Open Font License 1.1; licenses/Noto-OFL.txt and public/assets/Noto-OFL.txt",
+    "applicationOpenSourceLicenseAssigned": false,
+    "landscape": "Generated for original GIEO build; no separate stock license supplied",
+    "nonRedistributableThirdPartyAssetsIdentified": []
+  },
+  "validation": {
+    "cleanInstall": "PASS",
+    "cleanProductionBuildActuallyRun": true,
+    "productionBuild": "PASS",
+    "javascriptSyntax": "PASS (13 files)",
+    "tests": {
+      "status": "PASS",
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0
+    },
+    "optionalMetadataOriginBuildAndTests": "PASS",
+    "npmAudit": {
+      "status": "PASS",
+      "vulnerabilities": 0
+    },
+    "fontEditorialAlphabeticGlyphCoverage": "PASS (126 glyphs per font)",
+    "localRouteAndResourceChecks": "PASS",
+    "formalVercelJsonSchemaValidator": "NOT RUN",
+    "typecheck": "NOT RUN / not present",
+    "lint": "NOT RUN / not present",
+    "browserVisualAndInteractive": "NOT RUN / NOT VERIFIED",
+    "localPreviewServerStartup": "NOT RUN",
+    "realVercelDeployment": "NOT RUN",
+    "gpuWebGL": "NOT APPLICABLE (no WebGL)"
+  },
+  "warnings": [
+    "Browser layout, clicks, audio, reduced-motion presentation and live Vercel routing require manual QA",
+    "Without an absolute build origin sitemap is omitted; optional SITE_URL or exposed Vercel URL variables enable it",
+    "Original implementation uses SVG/CSS/native motion, with no Three.js/GSAP/Lenis, portrait models or narrated recordings",
+    "Journal data and language preferences do not automatically migrate between origins",
+    "Runner npm http-proxy warning is environment-specific and not packaged"
+  ],
+  "constraintsRespected": {
+    "githubRepositoryModified": false,
+    "vercelProjectModified": false,
+    "originalSitePublishedOrChanged": false,
+    "portfolioOrPMShipItModified": false,
+    "secretsIncluded": false
+  },
+  "inventoryScope": "All shipped source files except this manifest; manifest self-hash intentionally excluded",
+  "packagedFileCount": 35,
+  "bytesExcludingManifest": 1701097,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 271,
+      "sha256": "bf7dd522c02d91e5a9fe8a7094eeb4029fc03b1f544965013e6ffd5e1b2ba9a0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 109,
+      "sha256": "5c0c7cfe7d65a74ab92660549c8eff1bd97f9c4005376d660f2bd14f853d8801"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 3,
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53"
+    },
+    {
+      "path": "licenses/Noto-OFL.txt",
+      "bytes": 4395,
+      "sha256": "4bcd2048d7290dab388dae758e5b2f9a1cc66822e619257d4372ad9e5087ef70"
+    },
+    {
+      "path": "MIGRATION.md",
+      "bytes": 6166,
+      "sha256": "53b91e2e867b5a48b717caa67c82043e40ba212d90436f2021bbfa64ef8e548a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 245,
+      "sha256": "482ee602e5af65af56314b1fad15ba9227ad5dfb6f9fbe35ba66ca8eb3b23b6a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 600,
+      "sha256": "0abec795372a77ccafc83a18e9b79c408513f9c5f2dc451dce044022e4ea77e8"
+    },
+    {
+      "path": "public/assets/favicon.svg",
+      "bytes": 286,
+      "sha256": "1f740a3523eef7f76197b14fea0e68bcdd824eed67731692e1aee1116d05c076"
+    },
+    {
+      "path": "public/assets/landscape.webp",
+      "bytes": 209000,
+      "sha256": "5beaee5a8c9fb8549d2eaf57c3bb8362a0dd96190ec3b4459bf11f6db8737544"
+    },
+    {
+      "path": "public/assets/Noto-OFL.txt",
+      "bytes": 4395,
+      "sha256": "4bcd2048d7290dab388dae758e5b2f9a1cc66822e619257d4372ad9e5087ef70"
+    },
+    {
+      "path": "public/assets/sans.woff",
+      "bytes": 393320,
+      "sha256": "319cb6032698e6129999696562940e42cc0588a769cdb88a046470de7b5a1afb"
+    },
+    {
+      "path": "public/assets/serif-italic.woff",
+      "bytes": 372628,
+      "sha256": "12041b859bf6ea6360593de3759524fbe978210de72223c190d5251eb3d5198f"
+    },
+    {
+      "path": "public/assets/serif.woff",
+      "bytes": 343216,
+      "sha256": "6575981d14df5f347ca3b0ecca70865ddfbc18f7169606b81bce6410d5ce3a9d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11795,
+      "sha256": "c3c45a17107bab618be416ab8c43c929fc038ad556a44fd2e8d00cf57e220440"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 4142,
+      "sha256": "6a8d23d071c290757cedbeec93db72bc3d4bb0fed2c5985dbc73982733a7248a"
+    },
+    {
+      "path": "scripts/checks.mjs",
+      "bytes": 7171,
+      "sha256": "b730e5e10e4aa1284c8aad786f222957bbedc424a2df94638a44a69059f6f039"
+    },
+    {
+      "path": "scripts/content.py",
+      "bytes": 22193,
+      "sha256": "56d0859eb0b9a61a09c3a3ecc00e73d36a28866600f69cc724c33a1fa6019c16"
+    },
+    {
+      "path": "scripts/portable-checks.mjs",
+      "bytes": 5425,
+      "sha256": "c71ee9994a395e33e2ad9a1f67c48046403b5c22e1117bcce163bbde2ea9a821"
+    },
+    {
+      "path": "scripts/routes.mjs",
+      "bytes": 227,
+      "sha256": "ff64291e8c12997a8a9d655956a9a5d92d4f6c865d29c17bee4423c012b4c27f"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 4010,
+      "sha256": "fa028004eee1eecb8465bee3c6f1ee5be5c41ed7e94c33bf253cfc38602e2c51"
+    },
+    {
+      "path": "scripts/site-config.mjs",
+      "bytes": 745,
+      "sha256": "d09710f0d51ae1149363053fbec26d44deb0cc67d771a926d1403c3c089a9681"
+    },
+    {
+      "path": "scripts/syntax-check.mjs",
+      "bytes": 592,
+      "sha256": "9f4212854eaacfaa399657e8909fa0fbdbc5999a2d4a4b428bf19847fe436317"
+    },
+    {
+      "path": "specification.md",
+      "bytes": 95192,
+      "sha256": "808c8ba5836121f6909658106f7bc2a1f6c6e9fb6df40a94c5f6861aff25e620"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 18834,
+      "sha256": "fcc7f0f743f25e0f4c2c2eac3b550ea4ca8551c607e5c4c5000a1a3c66deb7f8"
+    },
+    {
+      "path": "src/art.js",
+      "bytes": 8777,
+      "sha256": "4d716f32a22b92a904323254eeb4ae3a73dd1a79ef32bd240c3a5dabac48f8e4"
+    },
+    {
+      "path": "src/content.js",
+      "bytes": 53604,
+      "sha256": "79fc75713c6f005f9f9a55ced4f3a8d1c28b9060e37fb306b7100cd3ba9786b2"
+    },
+    {
+      "path": "src/core.js",
+      "bytes": 2424,
+      "sha256": "8e814c17975f6f35b4f36471bc93e53b47ca08b1510bfe7b2bf3ff11bddadc64"
+    },
+    {
+      "path": "src/i18n.js",
+      "bytes": 35174,
+      "sha256": "68dd824b435d446c79181da28c2f426dbff9be6d96fb0fadc81103d8bd25b882"
+    },
+    {
+      "path": "src/index.html",
+      "bytes": 1661,
+      "sha256": "888ec5c6a0cd63eb6626eef2d02438d152a40cb50e81e4fd4287d1f2fcf1c133"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 51863,
+      "sha256": "f07e8909bdb0f22f6d37fe77896357a22e813a2e5ac9a7a1ffefc0902d765dea"
+    },
+    {
+      "path": "src/views.js",
+      "bytes": 27650,
+      "sha256": "459d9d04d67c8821600e18be200cd04d466236adc533a9d19013706356fe795d"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1937,
+      "sha256": "08885903e69da953f5812ccf24c9eca5392286a3448e655d715b95f110e535fc"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 9842,
+      "sha256": "f54542b08f455f27199d24412a82a67fbb0bf8e81fd0f51a476f4e3bc3955db2"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 3205,
+      "sha256": "7be28a499b613278b2353050a9260dab0e8e60999b4abca4a172d93858c4e52f"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/explore",
+      "destination": "/explore/index.html"
+    },
+    {
+      "source": "/stories",
+      "destination": "/stories/index.html"
+    },
+    {
+      "source": "/sanctuary",
+      "destination": "/sanctuary/index.html"
+    },
+    {
+      "source": "/garden",
+      "destination": "/garden/index.html"
+    },
+    {
+      "source": "/library",
+      "destination": "/library/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/explore/karma-and-intention",
+      "destination": "/explore/karma-and-intention/index.html"
+    },
+    {
+      "source": "/explore/impermanence",
+      "destination": "/explore/impermanence/index.html"
+    },
+    {
+      "source": "/explore/interdependence",
+      "destination": "/explore/interdependence/index.html"
+    },
+    {
+      "source": "/explore/not-self",
+      "destination": "/explore/not-self/index.html"
+    },
+    {
+      "source": "/explore/holding-and-letting-go",
+      "destination": "/explore/holding-and-letting-go/index.html"
+    },
+    {
+      "source": "/explore/mindful-presence",
+      "destination": "/explore/mindful-presence/index.html"
+    },
+    {
+      "source": "/explore/compassionate-speech",
+      "destination": "/explore/compassionate-speech/index.html"
+    },
+    {
+      "source": "/explore/rebirth-and-continuity",
+      "destination": "/explore/rebirth-and-continuity/index.html"
+    },
+    {
+      "source": "/stories/loving-without-owning",
+      "destination": "/stories/loving-without-owning/index.html"
+    },
+    {
+      "source": "/stories/why-family-words-hurt",
+      "destination": "/stories/why-family-words-hurt/index.html"
+    },
+    {
+      "source": "/stories/when-effort-is-not-enough",
+      "destination": "/stories/when-effort-is-not-enough/index.html"
+    },
+    {
+      "source": "/stories/how-much-is-enough",
+      "destination": "/stories/how-much-is-enough/index.html"
+    },
+    {
+      "source": "/stories/the-other-life-on-your-screen",
+      "destination": "/stories/the-other-life-on-your-screen/index.html"
+    },
+    {
+      "source": "/stories/living-with-absence",
+      "destination": "/stories/living-with-absence/index.html"
+    },
+    {
+      "source": "/stories/forgiveness-and-boundaries",
+      "destination": "/stories/forgiveness-and-boundaries/index.html"
+    },
+    {
+      "source": "/stories/waiting-to-begin-living",
+      "destination": "/stories/waiting-to-begin-living/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ]
+}
